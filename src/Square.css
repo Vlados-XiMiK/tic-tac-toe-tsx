@@ -1,0 +1,93 @@
+.square-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square {
+    font-size: 24px;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    font-size: 55px;
+    font-weight: bold;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.current-move-info {
+    cursor: pointer;
+    border: 1px solid #cecece;
+    background: #ffffff;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    width: 50px;
+    font-weight: bold;
+    color: red;
+}
+.game-info li {
+    margin-bottom: 20px;
+}
+
+.submit {
+
+    cursor: pointer;
+    border: 1px solid #cecece;
+    background: #ffffff;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    border-radius: 8px;
+    padding: 8px 20px;
+    width: 120px;
+}
+.submit:hover {
+    box-shadow: inset 0px -20px 20px #ffffff;
+}
+.submit:active {
+    margin-top: 1px;
+    margin-bottom: -1px;
+    zoom: 1;
+}
+.submit:focus
+{
+    outline:none;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 600px;
+    margin-top: -800px;
+}
+
+
+.board-row {
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+button {
+    background-color: #ffffff;
+}
